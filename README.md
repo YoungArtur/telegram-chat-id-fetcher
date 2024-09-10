@@ -22,32 +22,32 @@ A Python script to fetch and save the IDs of all Telegram chats (groups, channel
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/YoungArtur/telegram-chat-id-fetcher.git
-   ```
+```bash
+git clone https://github.com/YoungArtur/telegram-chat-id-fetcher.git
+```
   
 2. Install the required Python packages:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Configuration
 Edit a **config.json** file in the root directory with your API credentials:
 
-   ```json
+```json
 {
   "api_id": YOUR_API_ID,
   "api_hash": "YOUR_API_HASH",
   "session_file": "your_session_name"
 }
-   ```
+```
 
 ## Usage
 Run the script to start fetching chat IDs:
-   ```bash
-   python chat_id_fetcher.py
-   ```
+```bash
+python chat_id_fetcher.py
+```
 
 You will be prompted to enter your phone number, the verification code, and 2FA password (if enabled).
 
